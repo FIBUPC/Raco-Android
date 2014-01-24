@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:enabled="true">
+	<PreferenceCategory android:title="@string/personalitza_events">
+		<CheckBoxPreference android:title="@string/personalitza_events_checkbox"
+			android:key="Active_box_preference" android:summary="@string/personalitza_events_summary" />
+		<ListPreference android:title="@string/selecciona_event_llista"
+			android:key="listconfig" android:dependency="Active_box_preference"
+			android:summary="@string/selecciona_event_llista_summary"
+			android:entries="@array/opcions_llista_events_resum"
+			android:entryValues="@array/opcions_llista_valors_events_resum" />
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/notificacions">
+		<CheckBoxPreference android:title="@string/notificacionsActiva_title"
+			android:summary="@string/notificacionsActiva_title_summary"
+			android:key="notificacionsEnabled" android:defaultValue="false"></CheckBoxPreference>
+	</PreferenceCategory>
+	<!-- <PreferenceCategory android:title="@string/personalitza_idioma"> <ListPreference 
+		android:title="@string/idiomaRacoMobile" android:key="listconfigIdioma" android:summary="@string/selecciona_idioma_summary" 
+		android:entries="@array/opcions_llista_idioma" android:entryValues="@array/opcions_llista_valors_idioma" 
+		/> </PreferenceCategory> -->
+</PreferenceScreen>

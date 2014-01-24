@@ -1,0 +1,10 @@
+<resources>
+	<style name="BannerTheme" parent="android:Theme">
+		<item name="android:windowTitleSize">35dip</item>
+		<item name="android:windowTitleBackgroundStyle">@style/bannerBackground</item>
+	</style>
+
+	<style name="bannerBackground">
+		<item name="android:background">@drawable/banner</item>
+	</style>
+</resources>

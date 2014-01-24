@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="wrap_content"
+	android:background="@drawable/list_style_default">
+	<TextView android:id="@+id/aulaOcupada" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="left|center_vertical"
+		android:textSize="18dip" android:layout_weight="0.2"
+		android:layout_marginLeft="15dip" android:textColor="@color/lletraPrincipal" />
+	<TextView android:id="@+id/assigAula" android:layout_gravity="center_vertical"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:textSize="12dip" android:layout_weight="0.2"
+		android:textColor="@color/lletraPrincipal" />
+	<TextView android:id="@+id/places" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_gravity="right"
+		android:textSize="25dip" android:textStyle="bold" android:textColor="@color/lletraPrincipal"
+		android:layout_marginRight="10dip" />
+	<ImageView android:id="@+id/fletxaOcupacio"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:scaleType="centerCrop" android:layout_alignParentRight="true"
+		android:layout_marginRight="4dip" android:layout_gravity="center_vertical" />
+</LinearLayout>

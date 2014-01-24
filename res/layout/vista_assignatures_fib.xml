@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vista_assig_fib"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanc"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutCarregantDadesAssigFib"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/blanc" >
+
+        <ProgressBar
+            android:id="@+id/carregantDadesAssigFib"
+            style="@android:style/Widget.ProgressBar.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" >
+        </ProgressBar>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/cercar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cercar" 
+        android:layout_marginTop="10dip"/>
+
+    <TextView
+        android:id="@+id/assignatures_grau_titol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/assignatures_grau_titol"
+        android:textColor="@color/lletraPrincipal"
+        android:textSize="19sp" />
+
+    <ImageView
+        android:id="@+id/separator_blau"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/separator_blau" />
+
+    <ListView
+        android:id="@+id/listAssig_fib"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/llistaDefault"
+        android:cacheColorHint="@color/llistaDefault"
+        android:divider="@color/gris"
+        android:dividerHeight="2.0sp"
+        android:isScrollContainer="false"
+        android:textSize="18dip" />
+
+</LinearLayout>

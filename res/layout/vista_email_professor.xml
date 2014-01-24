@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:width="170dip"
+			android:id="@+id/emailaddress"></EditText>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/emailaddress"
+			android:text="Email address"></TextView>
+	</LinearLayout>
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<EditText android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:width="170dip"
+			android:id="@+id/emailsubject"></EditText>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/emailsubject"
+			android:text="Subject"></TextView>
+	</LinearLayout>
+	<EditText android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:lines="5" android:width="300dip"
+		android:id="@+id/emailtext"></EditText>
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/emailsendbutton"
+		android:text="Send" android:width="150dip">
+	</Button>
+</LinearLayout>

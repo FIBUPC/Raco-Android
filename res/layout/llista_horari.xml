@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/llistaInici" >
+
+    <TextView
+        android:id="@+id/hora"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@+string/horari_hora"
+        android:textColor="@color/lletraPrincipal"
+        android:width="100dip"
+        android:paddingLeft="10dip" />
+
+    <TextView
+        android:id="@+id/assignatura_horari"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@+string/horari_assignatura"
+        android:textColor="@color/lletraPrincipal"
+        android:width="140dip"
+        android:layout_toRightOf="@+id/hora" />
+
+    <TextView
+        android:id="@+id/classe_horari"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="@+string/horari_aula"
+        android:textColor="@color/lletraPrincipal"
+        android:width="150dip"
+        android:layout_toRightOf="@+id/assignatura_horari" />
+
+</RelativeLayout>

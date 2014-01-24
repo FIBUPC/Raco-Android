@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="37dip" android:background="@drawable/banner">
+	<ImageView android:id="@+id/raco_mobile"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/raco_mobile_banner"
+		android:paddingLeft="4dp" android:layout_marginLeft="7dip" android:layout_centerVertical="true" android:scaleType="centerInside"/>
+	<TextView android:id="@+id/username_banner" android:textSize="14sp"
+		android:textStyle="bold" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_toRightOf="@+id/raco_mobile"
+		android:gravity="left" android:layout_centerVertical="true" android:layout_marginLeft="12dip"/>
+	<ProgressBar android:id="@+id/carregant"
+		style="?android:attr/progressBarStyleSmall" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerVertical="true"
+		android:layout_toLeftOf="@+id/fib_upc" android:visibility="gone" android:layout_marginRight="10dip"></ProgressBar>
+	<ImageView android:id="@+id/fib_upc" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/logo_fib"
+		android:layout_alignParentRight="true" android:scaleType="centerCrop" android:layout_centerVertical="true"
+		android:layout_marginRight="7dip" />
+</RelativeLayout>

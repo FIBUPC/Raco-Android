@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_style_default" >
+
+    <TextView
+        android:id="@+id/nomAvis"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:textColor="@color/textLlista"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dataAvis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nomAvis"
+        android:layout_marginLeft="10dip"
+        android:textColor="@color/textLlista"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/fletxaAvis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>

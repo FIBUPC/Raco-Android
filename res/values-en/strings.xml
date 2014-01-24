@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Manifest.xml -->
+	<string name="app_name">RacoMobile</string>
+
+	<!-- Gestio Notificacions -->
+    <string name="racoNotificacio">Racó</string>
+    <string name="pfcNotificacio">Final Thesis</string>
+    <string name="Tnotificacio">Notification management</string>
+    <string name="errorNotificacio">Request error, try again</string>
+	<string name="errorMail">The account that you have stored in your phone is not from Google
+	</string>
+	<string name="usuariRaco">You must be Racó user to subscribe to the notification</string>
+	<string name="notifiacio1">You have</string>
+    <string name="notifiacio2">notices waiting to read</string>
+    <string name="notificacio">You have one new notification</string>
+    
+	<!-- Gestio Errors -->
+	<!-- <string name="mail_error">rogersala7@gmail.com</string> -->
+    <string name="mail_error">e.lopez.12491@gmail.com</string>
+	<string name="mail_error_cos">Raco Mobile Crashes</string>
+
+
+	<!-- TabIniApp -->
+	<string name="actualitat">News</string>
+	<string name="fib">FIB</string>
+	<string name="raco">Racó</string>
+	<string name="actualitza">Update</string>
+	<string name="progressDialogInfo">Loading...</string>
+	<string name="error">"Exception while loading information"</string>
+	<string name="nocontingut">Data not found</string>
+	<string name="errorLogin">Wrong username or password</string>
+	<string name="login_correcte">Correct login</string>
+	<string name="loginRaco">Login in Racó</string>
+	 <string name="errorServidor">Exception attempting to get server connection</string>
+
+	<!-- Preferencies -->
+	<string name="personalitza_events">News Zone</string>
+	<string name="personalitza_events_checkbox">Personal settings</string>
+	<string name="personalitza_events_summary">Enable/disable personal settings. The choose item will be the most important</string>
+	<string name="selecciona_event_llista">Highlighted item</string>
+	<string name="selecciona_event_llista_summary">Choose one option to have preference in front the others</string>
+	<string name="esAvis">All notices, 2 news and 2 emails will be shown</string>
+	<string name="esCorreu"> "Es mostraran els correus, 2 notícies i 2 avisos"
+	</string>
+	<string name="esNoticia"> "Es mostraran les notícies, 2 avisos i 2 correus"
+	</string>
+	<string name="notificacions">Notifications</string>
+	<string name="notificacionsActiva_title">Enable Notificacions</string>
+	<string name="notificacionsActiva_title_summary">Enable/disable the advice notification reception</string>
+	<string name="notificacions_mail_raco">Enable mail advice subscriptions in Racó</string>
+	<string name="notificacions_on">Notifications enabled</string>
+    <string name="notificacions_off">Notifications disabled</string>
+	<string name="personalitza_idioma">Language</string>
+	<string name="idiomaRacoMobile">Change language</string>
+	<string name="selecciona_idioma_summary">Choose one language from the list to use on the Racó Mobile</string>
+
+	<!-- ControladorVistaAbout -->
+	<string name="appNom">Racó Mobile</string>
+	<string name="versio">Version 1.0</string>
+	<string name="realitzadaPer">Author:</string>
+    <string name="nomRealitzadaPer">Roger Sala</string>
+    <string name="dirigidaPer">Director:</string>
+    <string name="nomDirigidaPer">Hugo Hernández</string>
+    <string name="codirigidaPer">Codirector:</string>
+    <string name="nomCodirigidaPer">Jaume Moral</string>
+    <string name="dissenyadaPer">Graphic designer:</string>
+    <string name="nomDissenyadaPer">Erola Rabat</string>
+    <string name="manteniment">Evolutionary maintenance (since v1.2) by LCFIB</string>
+    <string name="copyright">Final Thesis of Informatic Engineering at Barcelona school of informatics www.fib.upc.edu \n© Universitat Politècnica de Catalunya, year 2011. All Rights Reserved.</string>
+	<string name="informacio_de_contacte">Contact</string>
+	<string name="centreEmailInfo">Email contact:</string>
+	<string name="emailContacte">webmaster@fib.upc.edu </string>
+	<string name="suport_fib">FIB Support</string>
+
+	<!-- ControladorVistaResumEvents -->
+	<string name="hiha_internet">Not Internet connection found</string>
+	<string name="configurarIniciTitol">Set up Username and Password</string>
+	<string name="configurarIniciDescripcio">Click here to store your username and password to allow to show noticies and email from your Racó account</string>
+	<string name="infoIndiv">Information</string>
+	<string name="noBaseDades">There is no information stored in your device
+	</string>
+	<string name="sortir">Switch off</string>
+	<string name="preferencies">Settings</string>
+	<string name="about">About</string>
+	<string name="necessita_username">You must introduce your FIB user to allow Preference access</string>
+
+	<!-- ControladorVistaMostrarItemInfo -->
+	<string name="veureAvis">See notice with the browser</string>
+	<string name="veureNoticia">See the news with the browser</string>
+	<string name="fromCorreu">Email sent by:</string>
+	<string name="notaInformativa">The content will be shown soon</string>
+
+	<!-- ControladorTabVistaZonaFib -->
+
+	<!-- ControladorVistaLocalització -->
+	<string name="direccio_fib">Jordi Girona 1, 08034 Barcelona \nPhone: 934 01
+		70 00 </string>
+	<string name="mapa">Map</string>
+	<string name="satellit">Satellite</string>
+	<string name="noEsPotPosicio">No Internet connection found, your current position can not establish</string>
+
+	<!-- ControladorVistaAssignaturesFIB -->
+	<string name="cercar">Search by acronyms</string>
+	<string name="professor">Lecturers</string>
+	<string name="objectiu">Goals</string>
+	<string name="credits">Credits</string>
+	<string name="errorAssig">Exception while loading subjects</string>
+	<string name="enviantCorreu">Sending email...</string>
+	<string name="errorObtenirInfo">We can not get the information</string>
+	<string name="noCorreu">information no available</string>
+	<string name="correu">Email: </string>
+	<string name="assignatures_grau_titol">Degree specialisations</string>
+
+	<!-- ControladorVistaNoticiesFib -->
+	<string name="errorNoticies">Exception while loading news</string>
+	<string name="noHiHaNoticies">Not found published news
+	</string>
+	<string name="vertex">Vèrtex Building</string>
+	<string name="biblioteca">BRGF Library</string>
+	<string name="salaActes">FIB Main Room</string>
+	<string name="plasaFib">FIB Square</string>
+	<string name="omega">Omega Buildign</string>
+
+	<!-- ControladorTabVistaRacó -->
+	<string name="acceptarButton">Accept</string>
+	<string name="cancelarButton">Cancel</string>
+	<string name="logout">Logout</string>
+	<string name="logout_correcte">Logged out!</string>
+
+	<!-- ControladorVistaAgenda -->
+	<string name="errorAgenda">Exception while loading agenda </string>
+	<string name="iniciEventAgenda">Start:</string>
+	<string name="fiEventAgenda">End:</string>
+	<string name="avui">Today</string>
+	
+	<!-- ControladorVistaCorreu -->
+	<string name="errorCorreu">Exception while loading emails</string>
+	<string name="correuPerLlegir0">You have no emails to read</string>
+	<string name="correuPerLlegir1">You have</string>
+	<string name="correuPerLlegir2">waiting to be read</string>
+	<string name="enviatPer">Send for:</string>
+   	<string name="noMail">You don\'t have any mail in your inbox</string>
+	
+	<!-- ControladorVistaAssignaturesRaco -->
+
+	<!-- ControladorVistaOcupacio -->
+	<string name="errorAules">Exception while loading PCs rooms</string>
+	<string name="noDataActualitzacio"></string>
+	<string name="actualitzacioAula">Last update:</string>
+	<string name="actualitzacioHora">Update at:</string>
+	<string name="classeText">Class</string>
+	<string name="aulaText">Room</string>
+	<string name="seientsLliuresText">Available PC</string>
+
+	<!-- ControladorVistaHorari -->
+	<string name="errorHorari">Exception while loading schedule</string>
+	<string name="horari_hora">Hour</string>
+	<string name="horari_assignatura">Subject</string>
+	<string name="horari_aula">Room</string>
+	<string name="no_hi_ha_classe">You have no class</string>
+	<string name="maxim_dies_horari">No more days available, for more information choose an specific day</string>
+	<string name="obtenirTotHorari">Loading the whole schedule. This process may take a while, this process is going to be done only once</string>
+	<string name="titolObtenirTotHorari">Downloading schedule</string>
+	<string name="diumenge">Sunday</string>
+	<string name="dilluns">Monday</string>
+	<string name="dimarts">Tuesday</string>
+	<string name="dimecres">Wednesday</string>
+	<string name="dijous">Thursday</string>
+	<string name="divendres">Friday</string>
+	<string name="dissabte">Saturday</string>
+	<string name="infoActualitzaHorari">The next time you click on schedule tab, the new schedule is going to be downloaded</string>
+</resources>

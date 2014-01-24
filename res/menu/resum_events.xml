@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:title="@string/actualitza" android:id="@+id/actualitzaResumEvents" android:icon="@drawable/ic_actualitzar"></item>
+  <item android:title="@string/sortir" android:id="@+id/sortir" android:icon="@drawable/ic_sortir"></item>
+  <item android:title="@string/preferencies" android:id="@+id/preferencies" android:icon="@drawable/ic_preferencies"></item>
+  <item android:title="@string/about" android:id="@+id/about" android:icon="@drawable/ic_about"></item>
+</menu>

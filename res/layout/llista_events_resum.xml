@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ens permet configurar com volem que surtin cada element de la llista -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_style_inici"
+    android:cacheColorHint="@color/transparent" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="@color/transparent" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_marginBottom="10sp"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="10sp"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/dataIni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/image"
+            android:layout_marginLeft="5sp"
+            android:textColor="@color/blauFosc"
+            android:textSize="15dip" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/titol"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="7sp"
+        android:layout_weight="1"
+        android:textColor="@color/textLlista"
+        android:textSize="16dip" />
+
+    <ImageView
+        android:id="@+id/fletxa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="4dip"
+        android:scaleType="centerCrop" />
+
+    <ImageView
+        android:id="@+id/barra"
+        android:layout_width="6dip"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop" />
+
+</LinearLayout>

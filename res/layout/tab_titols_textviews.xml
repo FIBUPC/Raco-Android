@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Ens determina el TextView que apareix en el Tab inicial de l'aplicació -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" android:layout_height="fill_parent"
+	android:layout_weight="1" android:orientation="vertical"
+	android:paddingLeft="1dip" android:paddingRight="1dip"
+	android:background="@drawable/tab_style">
+	<TextView android:id="@+id/menu_inicial_tab"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true" android:textSize="18sp"
+		android:textStyle="bold" android:textColor="@drawable/tab_style_text"></TextView>
+</RelativeLayout>

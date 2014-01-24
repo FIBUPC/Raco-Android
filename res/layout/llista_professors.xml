@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content"
+	android:cacheColorHint="@color/transparent">
+	<TextView android:id="@+id/profeInfo" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:scaleType="centerCrop"
+		android:layout_marginLeft="5sp" android:layout_alignParentLeft="true"
+		android:layout_marginTop="7sp" android:layout_marginBottom="7sp" />
+	<ImageView android:id="@+id/mail" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:scaleType="centerCrop"
+		android:layout_marginRight="7sp" android:layout_centerVertical="true"
+		android:layout_alignParentRight="true" android:src="@drawable/fletxa_celda" />
+</RelativeLayout>

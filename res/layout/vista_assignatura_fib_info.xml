@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/vista_assignatura_info_fib" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:background="@drawable/fons_detall"
+	android:fadeScrollbars="false">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:padding="5dp" android:orientation="vertical">
+		<TextView android:id="@+id/nomAssig" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="23sp"
+			android:gravity="center" android:textColor="@color/blauFosc"
+			android:layout_marginLeft="10dip" android:layout_marginTop="5dip" />
+		<ImageView android:src="@drawable/separator"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:scaleType="fitXY" />
+		<TextView android:id="@+id/credits" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="16sp"
+			android:gravity="left" android:lineSpacingExtra="7px"
+			android:textColor="@color/lletraInfoAssigFibIndividual"
+			android:layout_marginTop="10dip" android:layout_marginLeft="7dip" />
+		<TextView android:id="@+id/professor" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="16sp"
+			android:gravity="left" android:lineSpacingExtra="7px"
+			android:visibility="gone" android:text="@string/professor"
+			android:textColor="@color/lletraInfoAssigFibIndividual"
+			android:layout_marginTop="5dip" android:layout_marginLeft="7dip" />
+		<RelativeLayout android:layout_width="fill_parent"
+			android:layout_height="wrap_content">
+			<ListView android:id="@+id/professors" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:cacheColorHint="@color/transparent"
+				android:dividerHeight="1px" android:visibility="gone"
+				android:divider="@drawable/fons_detall" android:background="@drawable/llista_cantonada_rodona"
+				android:scrollbars="none"/>
+		</RelativeLayout>
+		<TextView android:id="@+id/objectiu" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="16sp"
+			android:gravity="left" android:lineSpacingExtra="7px"
+			android:visibility="gone" android:text="@string/objectiu"
+			android:layout_marginLeft="10dip" android:textColor="@color/lletraInfoAssigFibIndividual"
+			android:layout_marginTop="10dip" />
+		<TextView android:id="@+id/objectius" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:textSize="16sp"
+			android:cacheColorHint="@color/transparent" android:layout_gravity="right"
+			android:background="@drawable/llista_cantonada_rodona"
+			android:visibility="gone" />
+	</LinearLayout>
+</ScrollView>

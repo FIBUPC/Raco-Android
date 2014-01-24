@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="negre">#000000</color>
+	<color name="blanc">#FFFFFF</color>
+	<color name="blau">#0040FF</color>
+	<color name="blauFosc">#02254C</color>
+	<color name="blauClar">#D9E4EC</color>
+	<color name="gris">#A4A4A4</color>
+	<color name="transparent">#0000</color>
+	<color name="tabText">#313031</color>
+	<color name="llistaInici">#F1F1F2</color>
+	<color name="llistaFi">#9E9E9E</color>
+	<color name="llistaIniciSeleccionada">#ADADAD</color>
+	<color name="llistaDefault">#FFFFFF</color>
+	<color name="llistaSelectDefault">#AFAFAF</color>
+	<color name="llistaOcupacio">#C8C8C8</color>
+	<color name="llistaOcupacioAula">#ADADAD</color>
+	<color name="textLlista">#6D6E70</color>
+	<color name="lletraPrincipal">#02254C</color>
+	<color name="fonsLletraTitol">#9BBEFF</color>
+	<color name="lletraSecundaria">#6D6E70</color>
+	<color name="lletraInfoAssigFibIndividual">#1B75BB</color>
+	<color name="fonsVistaAula">#D9DDF2</color>
+	<color name="splash">#1991CC</color>
+	<color name="noInfo">#E8E9EA</color>
+
+</resources>

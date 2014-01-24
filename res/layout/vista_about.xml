@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_about" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dip" >
+
+        <TextView
+            android:id="@+id/nomApp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/appNom"
+            android:textColor="@color/blanc"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/versio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nomApp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blanc"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/linia1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/versio"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/realitzadaPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:text="@string/realitzadaPer"
+                android:textColor="@color/blanc"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nomRealitzadaPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/realitzadaPer"
+                android:layout_toRightOf="@+id/realitzadaPer"
+                android:text="@string/nomRealitzadaPer"
+                android:textColor="@color/blanc"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linia2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linia1"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/dirigidaPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:text="@string/dirigidaPer"
+                android:textColor="@color/blanc"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nomDirigidaPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dirigidaPer"
+                android:layout_toRightOf="@+id/dirigidaPer"
+                android:text="@string/nomDirigidaPer"
+                android:textColor="@color/blanc"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linia3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linia2"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/codirigidaPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:text="@string/codirigidaPer"
+                android:textColor="@color/blanc"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nomCodirigidaPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/codirigidaPer"
+                android:layout_toRightOf="@+id/codirigidaPer"
+                android:text="@string/nomCodirigidaPer"
+                android:textColor="@color/blanc"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/linia4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linia3"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/dissenyadaPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dip"
+                android:text="@string/dissenyadaPer"
+                android:textColor="@color/blanc"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/nomDissenyadaPer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/dissenyadaPer"
+                android:layout_toRightOf="@+id/dissenyadaPer"
+                android:text="@string/nomDissenyadaPer"
+                android:textColor="@color/blanc"
+                android:textSize="17sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/logo_raco_mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linia4"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:src="@drawable/raco_mobile" />
+
+        <TextView
+            android:id="@+id/manteniment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/logo_raco_mobile"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="@string/manteniment"
+            android:textColor="@color/blanc"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/contacteViaEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/manteniment"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:drawableRight="@drawable/fletxa_celda"
+            android:gravity="center|center_horizontal"
+            android:textColor="@color/lletraSecundaria"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top"
+        android:layout_marginBottom="10dip" >
+
+        <TextView
+            android:id="@+id/situacio"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/copyright"
+            android:textColor="@color/blanc"
+            android:textSize="12sp"
+            android:textStyle="italic" >
+        </TextView>
+    </RelativeLayout>
+
+</RelativeLayout>

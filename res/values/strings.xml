@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Manifest.xml -->
+    <string name="app_name">RacoMobile</string>
+    
+    <!-- Gestio Notificacions-->
+    <string name="racoNotificacio">Racó</string>
+    <string name="pfcNotificacio">Projecte Final de Carrera</string>
+    <string name="Tnotificacio">Gestió notificacions</string>
+    <string name="errorNotificacio">Error en les peticions, torna-ho a intentar</string>
+    <string name="errorMail">La compte que hi ha al telèfon no és de Google</string>
+    <string name="usuariRaco">Per subscriure a les notificacions has de ser usuari del Racó</string>
+    <string name="notifiacio1">Tens</string>
+    <string name="notifiacio2">avisos pendents de consultar</string>
+    <string name="notificacio">Tens un nou avís</string>
+    
+    <!-- Gestio Errors -->
+    <!-- <string name="mail_error">rogersala7@gmail.com</string> -->
+    <string name="mail_error">e.lopez.12491@gmail.com</string>
+    <string name="mail_error_cos">Raco Mobile Crashes</string>
+    
+    
+    <!-- TabIniApp -->
+    <string name="actualitat">Actualitat</string>
+    <string name="fib">FIB</string>
+    <string name="raco">Racó</string>
+    <string name="actualitza">Actualitzar</string>
+    <string name="progressDialogInfo">Obtenint dades...</string>
+    <string name="error">"No s'ha pogut obtenir la informació"</string>
+    <string name="nocontingut">No hem trobat contingut per mostrar</string>
+    <string name="errorLogin">Usuari o contrasenya incorrectes</string>
+    <string name="login_correcte">Login realitzat correctament!</string>
+    <string name="loginRaco">Registrar-se al Racó</string>
+    <string name="errorServidor">Error en la connexió amb el servidor</string>
+    
+    <!-- Preferencies -->
+    <string name="personalitza_events">Zona Actualitat</string>
+    <string name="personalitza_events_checkbox">Configuració personal</string>
+    <string name="personalitza_events_summary">Activa/desactiva la configuració personal. El element escollit tindrà màxima rellevància</string>
+    <string name="selecciona_event_llista">Element destacat</string>
+    <string name="selecciona_event_llista_summary">Escull una de les opcions per tal de que tingui més rellevància que les altres</string>
+    <string name="esAvis"> "Es mostraran els avisos, 2 notícies i 2 correus"</string>
+    <string name="esCorreu"> "Es mostraran els correus, 2 notícies i 2 avisos"</string>
+    <string name="esNoticia"> "Es mostraran les notícies, 2 avisos i 2 correus"</string>
+    <string name="notificacions">Notificacions</string>
+    <string name="notificacionsActiva_title">Activar Notificacions</string>
+    <string name="notificacionsActiva_title_summary">Activa/desactiva la recepció de notificacions dels avisos</string>
+    <string name="notificacions_mail_raco">Activa la subscripció via correu als avisos en el Racó</string>
+    <string name="notificacions_on">Notificacions activades</string>
+    <string name="notificacions_off">Notificacions desactivades</string>
+    <string name="personalitza_idioma">Idioma</string>
+    <string name="idiomaRacoMobile">Canviar Idioma</string>
+    <string name="selecciona_idioma_summary">Selecciona un idioma dels de la llista i per aplicar-ho al Raco Mobile</string>
+    
+    <!-- ControladorVistaAbout  -->
+    <string name="appNom">Racó Mobile</string>
+    <string name="versio">Versió 1.0</string>
+    <string name="realitzadaPer">Autor:</string>
+    <string name="nomRealitzadaPer">Roger Sala</string>
+    <string name="dirigidaPer">Director:</string>
+    <string name="nomDirigidaPer">Hugo Hernández</string>
+    <string name="codirigidaPer">Codirector:</string>
+    <string name="nomCodirigidaPer">Jaume Moral</string>
+    <string name="dissenyadaPer">Disseny gràfic:</string>
+    <string name="nomDissenyadaPer">Erola Rabat</string>
+    <string name="manteniment">Manteniment evolutiu (desde v1.2) per LCFIB</string>
+    <string name="copyright">Projecte Final de Carrera d\'Enginyeria Informàtica Facultat d\'Informàtica de Barcelona www.fib.upc.edu \n© Universitat Politècnica de Catalunya, any 2011. Tots els drets reservats.</string>
+    <string name="centreEmailInfo">Contacte via email:</string>
+    <string name="emailContacte">webmaster@fib.upc.edu </string>
+    <string name="suport_fib">Suport FIB</string>
+    
+    <!-- ControladorVistaResumEvents-->
+    <string name="hiha_internet">No es detecta connexió a Internet</string>
+    <string name="configurarIniciTitol">Configurar Username i Password</string>
+    <string name="configurarIniciDescripcio">Entrar aquí i memoritza el teu usuri i contrasenya per tal de veure els avisos i el correu en la llista</string>
+    <string name="infoIndiv">Informació</string>
+    <string name="noBaseDades">No hi ha informació guardada a la base de dades</string>
+    <string name="sortir">Sortir</string>
+    <string name="preferencies">Preferències</string>
+    <string name="about">About</string>
+    <string name="necessita_username">Per accedir a les Preferències has de haver introduit el teu usuari FIB prèviament</string>
+    
+    <!-- ControladorVistaMostrarItemInfo -->
+    <string name="veureAvis">Veure avís via web</string>
+    <string name="veureNoticia">Veure la notícia en la web</string>
+    <string name="fromCorreu">Correu enviat per:</string>
+    <string name="notaInformativa">En breu esperem poder mostrar el contingut</string>
+    
+    <!-- ControladorTabVistaZonaFib -->
+
+		<!-- ControladorVistaLocalització -->
+    	<string name="direccio_fib">Jordi Girona 1, 08034 Barcelona \nTelèfon: 934 01 70 00 </string>
+    	<string name="mapa">Mapa</string>
+    	<string name="satellit">Satèl·lit</string>
+    	<string name="noEsPotPosicio">No es detecta connexio a Internet, no es podrà determinar la teva posició</string>
+    	
+    	<!-- ControladorVistaAssignaturesFIB -->
+    	<string name="cercar">Cerca per Sigles</string>
+    	<string name="professor">Professors</string>
+    	<string name="objectiu">Objectius</string>
+    	<string name="credits">Crèdits</string>
+    	<string name="errorAssig">Error al obtenir les assignatures</string>
+    	<string name="enviantCorreu">Enviant correu...</string>
+    	<string name="errorObtenirInfo">No hem pogut obtenir la informació</string>
+    	<string name="noCorreu">informació no disponible</string>
+    	<string name="correu">Correu: </string>
+    	<string name="assignatures_grau_titol">Assignatures del Grau</string>
+    	
+    	<!-- ControladorVistaNoticiesFib -->
+    	<string name="errorNoticies">Error al obtenir les notícies</string>
+    	<string name="noHiHaNoticies">En aquests moments no s\'han trobat notícies publicades</string>
+    	<string name="vertex">Edifici Vèrtex</string>
+    	<string name="biblioteca">Biblioteca BRGF</string>
+    	<string name="salaActes">Sala actes FIB</string>
+    	<string name="plasaFib">Plaça de la FIB</string>
+    	<string name="omega">Edifici Omega</string>
+    	
+    <!-- ControladorTabVistaRacó -->
+    	<string name="acceptarButton">Acceptar</string>
+    	<string name="cancelarButton">Cancelar</string>
+    	<string name="logout">Logout</string>
+    	<string name="logout_correcte">Logout realitzat correctament!</string>
+    	
+    	<!-- ControladorVistaAgenda -->
+    	<string name="errorAgenda">Error al obtenir els elements de la agenda</string>
+    	<string name="iniciEventAgenda">Inici:</string>
+    	<string name="fiEventAgenda">Fi:</string>
+    	<string name="avui">Avui</string>
+    	
+    	<!-- ControladorVistaCorreu -->
+    	<string name="errorCorreu">Error al obtenir el correu</string>
+    	<string name="correuPerLlegir1">Tens</string>
+    	<string name="correuPerLlegir2">pendents per llegir</string>
+    	<string name="correuPerLlegir0">No tens cap correu pendent per llegir</string>
+    	<string name="enviatPer">Enviat per:</string>
+    	<string name="noMail">No tens cap email a la bustia</string>
+    	
+    	<!-- ControladorVistaAssignaturesRaco -->
+    	
+    	<!-- ControladorVistaOcupacio -->
+    	<string name="errorAules">Error al obtenir les aules</string>
+    	<string name="noDataActualitzacio"></string>
+    	<string name="actualitzacioAula">Última actualització:</string>
+    	<string name="actualitzacioHora">Hora actualització:</string>
+    	<string name="classeText">Classe</string>
+    	<string name="aulaText">Aula</string>
+    	<string name="seientsLliuresText">PCs lliures</string>
+    	
+    	<!-- ControladorVistaHorari -->
+    	<string name="errorHorari">Error al obtenir el teu horari</string>
+    	<string name="horari_hora">Hora</string>
+    	<string name="horari_assignatura">Assignatura</string>
+    	<string name="horari_aula">Aula</string>
+    	<string name="no_hi_ha_classe">No tens classe</string>
+    	<string name="maxim_dies_horari">Has consultat tots els dies possibles, per més dies consulta mitjançant un dia concret</string>
+    	<string name="obtenirTotHorari">Obtenint tot el horari del quadrimestre. Aquest procés, es realitza una única vegada i pot trigar una estona</string>
+ 		<string name="titolObtenirTotHorari">Descarregant horari</string>
+ 		<string name="diumenge">Diumenge</string>
+ 		<string name="dilluns">Dilluns</string>
+ 		<string name="dimarts">Dimarts</string>
+ 		<string name="dimecres">Dimecres</string>
+ 		<string name="dijous">Dijous</string>
+ 		<string name="divendres">Divendres</string>
+ 		<string name="dissabte">Dissabte</string>
+ 		<string name="infoActualitzaHorari">La pròxima vegada que accedeixis al horari es descarregarà el nou horari</string>
+</resources>

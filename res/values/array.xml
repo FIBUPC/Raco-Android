@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="opcions_llista_events_resum">
+		<item>Notícies</item>
+		<item>Correu</item>
+		<item>Avisos assignatures</item>
+	</string-array>
+	<string-array name="opcions_llista_valors_events_resum">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+	<string-array name="opcions_llista_idioma">
+		<item>Català</item>
+		<item>Castellano</item>
+		<item>English</item>
+	</string-array>
+	<string-array name="opcions_llista_valors_idioma">
+		<item>catala</item>
+		<item>castella</item>
+		<item>angles</item>
+	</string-array>
+</resources>

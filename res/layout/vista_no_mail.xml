@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/noInfo" >
+
+    <ImageView
+        android:id="@+id/aboutImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:src="@drawable/vista_no_info" />
+
+    <TextView
+        android:id="@+id/noContingut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:text="@string/noMail"
+        android:textColor="@color/gris"
+        android:textSize="25sp" />
+
+</RelativeLayout>

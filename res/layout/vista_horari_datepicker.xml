@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/main"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_height="fill_parent"
+	android:layout_width="fill_parent" android:background="@color/blanc">
+	<!-- Header -->
+	<TextView android:id="@+id/diaSetmana" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:gravity="center"
+		android:textSize="30dip" android:textStyle="bold"
+		android:layout_marginTop="15dip"></TextView>
+	<LinearLayout android:id="@+id/titols_horari"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<TextView android:id="@+id/hora" android:layout_height="fill_parent"
+			android:layout_width="wrap_content" android:text="@+string/horari_hora"
+			android:width="100dip" android:height="30dip" android:textColor="@color/lletraPrincipal"
+			android:gravity="center" />
+		<TextView android:id="@+id/assignatura_horari"
+			android:layout_height="fill_parent" android:layout_width="wrap_content"
+			android:text="@+string/horari_assignatura" android:width="140dip"
+			android:height="30dip" android:textColor="@color/lletraPrincipal"
+			android:gravity="center" />
+		<TextView android:id="@+id/classe_horari"
+			android:layout_height="fill_parent" android:layout_width="wrap_content"
+			android:text="@+string/horari_aula" android:width="150dip"
+			android:height="30dip" android:textColor="@color/lletraPrincipal"
+			android:gravity="center" />
+	</LinearLayout>
+
+	<!-- List Divider -->
+	<View android:layout_width="fill_parent" android:layout_height="1dip"
+		android:background="?android:attr/listDivider" />
+
+	<!-- ListView (grid_items) -->
+	<LinearLayout android:id="@+id/grid_horari"
+		android:layout_width="wrap_content" android:layout_height="fill_parent">
+		<ListView android:id="@+id/list_horari" android:clickable="false"
+			android:layout_height="fill_parent" android:layout_width="fill_parent"
+			android:gravity="center|center_vertical"  android:cacheColorHint="@color/blanc">
+		</ListView>
+	</LinearLayout>
+</LinearLayout>

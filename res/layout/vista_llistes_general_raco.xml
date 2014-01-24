@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vistes_generals_raco"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanc"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layoutCarregantDades"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/blanc" >
+
+        <ProgressBar
+            android:id="@+id/carregantDades"
+            style="@android:style/Widget.ProgressBar.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone" >
+        </ProgressBar>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/vista_llista_raco "
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/llistaDefault"
+        android:cacheColorHint="@color/llistaDefault"
+        android:divider="@color/gris"
+        android:dividerHeight="2.0sp"
+        android:footerDividersEnabled="true"
+        android:scrollbars="none" />
+
+</LinearLayout>

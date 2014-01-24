@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:title="@string/mapa" android:id="@+id/mapa" android:icon="@drawable/ic_mapa"></item>
+  <item android:title="@string/satellit" android:id="@+id/satellit" android:icon="@drawable/ic_satelit"></item>
+</menu>
